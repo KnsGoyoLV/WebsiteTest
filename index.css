@@ -1,0 +1,233 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css");
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+a.navbar-brand {
+    color: #3862e1;
+    font-size: xxx-large;
+    font-weight: bold;
+    --bs-navbar-brand-hover-color:  #2c9cf7;
+}
+
+nav.navbar.navbar-expand.bg-body-tertiary {
+    margin: 2rem 5rem;
+    border-radius: 1rem;
+    background-color: rgb(225, 225, 225)!important;
+}
+
+.navbar-text {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: var(--bs-navbar-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn.btn-primary {
+    border-radius: 2rem;
+    background-color: #3862e1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+
+.navbar .navbar-nav{
+    color: #000000;
+    font-weight: bold;
+}
+
+a.nav-link {
+    font-weight: bold;
+    color: black;
+    padding-left: 0.5rem;
+}
+
+
+.daily-rental-details {
+    background-color: #1f398b;
+    color: white;
+    border-radius: 2rem;
+    margin: 3rem 9rem;
+    padding-bottom: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+.daily-rental-details h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.rental-info {
+    background-color: #1f398b;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.request-number {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trip-details {
+    color: #ffffff; 
+}
+
+.invoice-link {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.invoice-link:hover {
+    text-decoration: underline; 
+}
+
+.trip-link {
+    color:  #626a86;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none; 
+}
+.user-info-panel {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0rem 11rem;
+    margin-bottom: 20px; 
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+}
+
+
+.user-avatar img {
+    border-radius: 2rem;
+    width: 10rem; 
+    height: 10rem; 
+    object-fit: cover;
+}
+
+.user-details h3 {
+    margin-top: 0;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.rating {
+    color: #ffc107; 
+    display: flex;
+    align-items: center;
+    margin-top: -0.5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.star-icon {
+    color: #ffc107; 
+}
+
+.status {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    flex-direction: column;
+    margin-right: -10rem;
+}
+span.status-text {
+    color: black;
+    font-size: 1rem;
+}
+.status-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+p.Status {
+    margin: 0rem;
+    color: green;
+    font-weight: bold;
+}
+
+h.Chauffeur {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.status-text {
+    font-size: 0.9em;
+    color: #666;
+}
+a.footer-brand {
+    color: #2a4cb1;
+    font-size: xxx-large;
+    font-weight: bold;
+    --bs-navbar-brand-hover-color:  #0b8efa;
+    text-decoration: none;
+}
+
+footer.bg-dark.text-light {
+    display: flex;
+    background-color: rgb(225, 225, 225)!important;
+}
+
+a.footer-text {
+    color: #0f0f0f;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+
+.col-sm-4 {
+    margin-left: 5rem;
+}
+
+p.flags {
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0rem;
+    color: grey;
+}
+
+ul#tripDetailsTab {
+    place-content: center;
+    
+}
+button#trip-details-tab {
+    border-radius: 2rem;
+    color: white;
+    background-color: #1f398b;
+    border-color: #666;
+}
+button#return-trip-details-tab {
+    border-radius: 2rem;
+    color: #1f398b;
+    background-color: white;
+    border-color: #666;
+}
+p.depart {
+    color: black;
+    text-align: right;
+}

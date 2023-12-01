@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Dispo website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <nav class="navbar navbar-expand bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Dispo</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-text">EUR <i class="fa-solid fa-euro-sign"></i></a>
+            <a class="navbar-text">English <i class="fa-solid fa-globe"></i></a>
+
+            <div class="navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Transport</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About B2B</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                
+                <a class="btn btn-primary" href="#">Book today</a>
+                <a class="nav-link" href="#">Log in / Sign up</a>
+            </div>
+        </div>
+    </nav>
+
+   
+        <div class="daily-rental-details">
+            <div class="container">
+                <h2>Your daily rental details</h2>
+             
+                <div class="rental-info">
+                    <div class="request-number">
+                        <i class="fa-solid fa-shield-halved"></i>  Request #779
+                    </div>
+                    <div class="trip-details">
+                        <i class="fa-regular fa-calendar-days"></i> Trip starts: 18 Feb - 11:00  |  <i class="fa-solid fa-user-large"></i> 45 people | Paid 12€
+                        <a href="#" class="invoice-link">view invoice</a>
+                    </div>
+                    <a href="#" class="trip-link"><i class="fa-regular fa-copy"></i> Copy your unique trip link</a>        
+                </div>
+            </div>
+        </div>
+      
+        <div class="user-info-panel">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="user-card">
+                            <div class="user-details">
+                                <p class="Status">Active</p>
+                                <h class="Chauffeur">Chauffeur</h>
+                                <div class="user-avatar">
+                    
+                                    <img src="pictures/images.jpg" alt="Chauffeur Avatar">
+                                    <p class="name">Adam Lopoto</p>
+                                </div>
+                                
+                                <div class="rating">
+                                    <span class="star-icon">★</span>
+                                    <span>4.9</span>
+                                </div>
+                                <div class="status">
+                                    <span class="status-text">  <i class="fa-solid fa-square-check"></i>Waiting chauffeur - 14.06.2022 at 12:32</span>
+                                    <span class="status-text">  <i class="fa-solid fa-square-check"></i>chauffeur assigned - 14.06.2022 at 12:32</span>
+                                    <span class="status-text">  <i class="fa-solid fa-square-check"></i>started - 14.06.2022 at 12:32</span>
+                                    <span class="status-text">  <i class="fa-regular fa-square-check"></i>Trip in progress</span>
+                                    <span class="status-text">  <i class="fa-regular fa-square-check"></i>Finished</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="user-card">
+                            <div class="carrier-info">
+                                <p class="flags"><span class="flag-icon flag-icon-lv flag-icon-squared"></span> <span class="flag-icon flag-icon-ru flag-icon-squared"></span> <span class="flag-icon flag-icon-us flag-icon-squared"></span></p>
+
+                                <p>Name of carrier</p>
+                                <p style="color: black;font-weight: bold;">Bambam SIA</p>
+
+                                <p>National reg. nb.</p>
+                                <p style="color: black;font-weight: bold;">"Miranda"</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                    <div class="container mt-4">
+                        <ul class="nav nav-tabs" id="tripDetailsTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="trip-details-tab" data-bs-toggle="tab" data-bs-target="#tripDetails" type="button" role="tab" aria-controls="tripDetails" aria-selected="true">Trip Details</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="return-trip-details-tab" data-bs-toggle="tab" data-bs-target="#returnTripDetails" type="button" role="tab" aria-controls="returnTripDetails" aria-selected="false">Return Trip Details</button>
+                            </li>
+                        </ul>
+                    
+                       
+                                <div class="card">
+                                    <div class="card-body"> 
+                                        <div class="container text-center">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p><b>Rigas international airport</b> P133, Mārupes, LV1023</p>
+                                                    <p><b>Lithuania airport</b> Road name, LT223, Lithuania</p>
+                                                    <p><b>Lithuania airport</b> Road name, LT223, Lithuania</p>
+                                                </div>
+                                                <div class="col">
+                                                    <p class="depart"><i class="fa-regular fa-clock"></i>Depart 16:45</p>
+                                                    <p class="depart"><i class="fa-regular fa-clock"></i>Arive: 17:20  <i class="fa-regular fa-clock"></i>Depart: 19:45</p>
+                                                    <p class="depart"><i class="fa-regular fa-clock"></i>Arive: 20:20  <i class="fa-regular fa-clock"></i>Depart: 21:45</p>
+                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="pictures/map.jpg" alt="Chauffeur Avatar">
+                                    </div>
+                                </div>
+                            
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <a class="footer-text" href="#">Login</a>
+                    <a class="footer-text" href="#">Sing up</a>
+                    <a class="footer-text" href="#">Partners</a>
+                    <a class="footer-text" href="#">About</a>
+                    <a class="footer-text" href="#">FAQ</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a class="footer-brand" href="#">Dispo</a>
+                </div>
+                <div class="col-md-4 text-right">
+                    <a class="footer-text" href="#">Terms of service</a>
+                    <a class="footer-text" href="#">Privacy Policy</a>
+                    <a class="footer-text" href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body> 
